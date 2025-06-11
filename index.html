@@ -555,16 +555,17 @@
 <body>
     <div class="bg-animation"></div>
 
-    <nav id="navbar">
-        <div class="nav-container">
-            <div class="logo">Patrick Phillips</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <nav class="fixed top-0 w-full z-50 backdrop-blur-lg bg-dark/80 border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="text-2xl font-bold gradient-text">Patrick Phillips</a>
+                <ul class="flex space-x-8">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="resume.html" class="nav-link">Resume</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -599,10 +600,6 @@
             </div>
             <div class="blog-grid">
                 <a href="blog/ai-healthcare-revolution.html" class="blog-card">
-                    <div class="blog-image">
-                        <div class="image-bg"></div>
-                        <img src="images/healthcare-ai.jpg" alt="AI in Healthcare">
-                    </div>
                     <div class="blog-content">
                         <h3>AI in Healthcare: The Silent Revolution</h3>
                         <p>Exploring how artificial intelligence is transforming healthcare delivery, from diagnosis to treatment, often in ways that go unnoticed by the general public.</p>
